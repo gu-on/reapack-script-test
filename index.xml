@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaPack Script Test" commit="02f1b59a04f6f1714e67bd4fe6b63ec4cec73be9">
+<index version="1" name="ReaPack Script Test" commit="6bf2cda2282234b266fe2255e774d03365c5ecae">
   <category name="Scripts">
     <reapack name="test.lua" type="script" desc="Test1">
       <metadata>
@@ -27,6 +27,41 @@
         <source main="main">https://github.com/gu-on/reapack-script-test/raw/02f1b59a04f6f1714e67bd4fe6b63ec4cec73be9/Scripts/test.lua</source>
         <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/02f1b59a04f6f1714e67bd4fe6b63ec4cec73be9/Include/lib.lua</source>
         <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/02f1b59a04f6f1714e67bd4fe6b63ec4cec73be9/Include/lib2.lua</source>
+      </version>
+      <version name="1.4" author="guonaudio" time="2023-12-18T20:22:56Z">
+        <source main="main">https://github.com/gu-on/reapack-script-test/raw/6bf2cda2282234b266fe2255e774d03365c5ecae/Scripts/test.lua</source>
+      </version>
+    </reapack>
+    <reapack name="test2.lua" type="script" desc="Test2">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Test script to access function from an external file\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.4" author="guonaudio" time="2023-12-18T20:22:56Z">
+        <source main="main">https://github.com/gu-on/reapack-script-test/raw/6bf2cda2282234b266fe2255e774d03365c5ecae/Scripts/test2.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Settings">
+    <reapack name="settings.lua" type="script" desc="Settings">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 This script sets some settings\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="guonaudio" time="2023-12-18T20:22:56Z">
+        <source main="main">https://github.com/gu-on/reapack-script-test/raw/6bf2cda2282234b266fe2255e774d03365c5ecae/Settings/settings.lua</source>
+        <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/6bf2cda2282234b266fe2255e774d03365c5ecae/Include/lib.lua</source>
+        <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/6bf2cda2282234b266fe2255e774d03365c5ecae/Include/lib2.lua</source>
       </version>
     </reapack>
   </category>
