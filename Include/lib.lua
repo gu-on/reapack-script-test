@@ -1,10 +1,5 @@
--- @description General Lib
--- @author guonaudio
--- @version 1.0
 -- @noindex
--- @about
---   lib for general functions
 
-function PrintTest()
-    reaper.ShowConsoleMsg("test")
+function PrintTest1()
+    reaper.ShowConsoleMsg("lib1\n")
 end
