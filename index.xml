@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaPack Script Test" commit="af463896e57863cf1de06b4cf1abd4e141779d73">
+<index version="1" name="ReaPack Script Test" commit="02f1b59a04f6f1714e67bd4fe6b63ec4cec73be9">
   <category name="Scripts">
-    <reapack name="test.lua" type="script" desc="Test">
+    <reapack name="test.lua" type="script" desc="Test1">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
@@ -22,6 +22,11 @@
         <source main="main">https://github.com/gu-on/reapack-script-test/raw/af463896e57863cf1de06b4cf1abd4e141779d73/Scripts/test.lua</source>
         <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/af463896e57863cf1de06b4cf1abd4e141779d73/Include/lib.lua</source>
         <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/af463896e57863cf1de06b4cf1abd4e141779d73/Include/lib2.lua</source>
+      </version>
+      <version name="1.3" author="guonaudio" time="2023-12-18T20:08:38Z">
+        <source main="main">https://github.com/gu-on/reapack-script-test/raw/02f1b59a04f6f1714e67bd4fe6b63ec4cec73be9/Scripts/test.lua</source>
+        <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/02f1b59a04f6f1714e67bd4fe6b63ec4cec73be9/Include/lib.lua</source>
+        <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/02f1b59a04f6f1714e67bd4fe6b63ec4cec73be9/Include/lib2.lua</source>
       </version>
     </reapack>
   </category>
