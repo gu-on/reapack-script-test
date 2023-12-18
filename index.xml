@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaPack Script Test" commit="39d525a978b483c599a3a1b25a49fb9c6d6d9124">
+<index version="1" name="ReaPack Script Test" commit="fe6fe59882acac9a8cdad73473279c04246b5f8d">
   <category name="Scripts">
     <reapack name="test.lua" type="script" desc="Test">
       <metadata>
@@ -13,6 +13,10 @@
       </metadata>
       <version name="1.0" author="guonaudio" time="2023-12-18T15:32:25Z">
         <source main="main">https://github.com/gu-on/reapack-script-test/raw/39d525a978b483c599a3a1b25a49fb9c6d6d9124/Scripts/test.lua</source>
+      </version>
+      <version name="1.1" author="guonaudio" time="2023-12-18T16:55:08Z">
+        <source main="main">https://github.com/gu-on/reapack-script-test/raw/fe6fe59882acac9a8cdad73473279c04246b5f8d/Scripts/test.lua</source>
+        <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/fe6fe59882acac9a8cdad73473279c04246b5f8d/Include/lib.lua</source>
       </version>
     </reapack>
   </category>
