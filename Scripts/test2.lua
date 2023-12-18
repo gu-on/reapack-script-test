@@ -1,6 +1,6 @@
--- @description Test
+-- @description Test2
 -- @author guonaudio
--- @version 1.2
+-- @version 1.3
 -- @provides
 --    [nomain]../Include/lib.lua
 --    [nomain]../Include/lib2.lua
