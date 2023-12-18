@@ -1,6 +1,6 @@
 -- @description Test
 -- @author guonaudio
--- @version 1.0
+-- @version 1.1
 -- @provides
 --    [nomain]../Include/lib.lua
 -- @about
