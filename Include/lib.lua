@@ -1,7 +1,7 @@
 -- @description General Lib
 -- @author guonaudio
 -- @version 1.0
--- @metapackage true
+-- @noindex
 -- @about
 --   lib for general functions
 
