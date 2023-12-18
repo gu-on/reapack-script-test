@@ -1,6 +1,8 @@
 -- @description Test
 -- @author guonaudio
 -- @version 1.0
+-- @provides
+--    [nomain]../Include/lib.lua
 -- @about
 --   Test script to access function from an external file
 
