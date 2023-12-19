@@ -1,11 +1,11 @@
 -- @description Settings
 -- @author guonaudio
--- @version 1.2
+-- @version 1.3
 -- @provides
 --   [nomain]../Include/lib.lua
 --   [nomain]../Include/lib2.lua
 -- @changelog
---   Removed providing external plugins
+--   Updated library
 -- @about
 --   This script sets some settings
 

@@ -1,8 +1,8 @@
 -- @description Test1
 -- @author guonaudio
--- @version 1.5
+-- @version 1.6
 -- @changelog
---   Use plugin
+--   Prints a new thing
 -- @about
 --   Test script to access function from an external file
 
@@ -13,5 +13,6 @@ dofile(scriptPath:match("@?(.*[\\|/])") .. "../Include/lib2.lua")
 reaper.ShowConsoleMsg("test1\n")
 PrintTest1()
 PrintTest2()
+PrintSomethingElse()
 
 reaper.ShowConsoleMsg("API exsists: " .. reaper.APIExists("GU_Filesystem_PathExists"))
