@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaPack Script Test" commit="cc02ee84a26536ef72ffcb56eeb69c7525d25da7">
+<index version="1" name="ReaPack Script Test" commit="2b578c7eb6c00aa6b2837f1cdca6e9ace6437d70">
   <category name="Scripts">
     <reapack name="test.lua" type="script" desc="Test1">
       <metadata>
@@ -66,6 +66,20 @@
         <source main="main">https://github.com/gu-on/reapack-script-test/raw/6bf2cda2282234b266fe2255e774d03365c5ecae/Settings/settings.lua</source>
         <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/6bf2cda2282234b266fe2255e774d03365c5ecae/Include/lib.lua</source>
         <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/6bf2cda2282234b266fe2255e774d03365c5ecae/Include/lib2.lua</source>
+      </version>
+      <version name="1.1" author="guonaudio" time="2023-12-19T08:25:11Z">
+        <changelog><![CDATA[Update to include external plugins]]></changelog>
+        <source main="main">https://github.com/gu-on/reapack-script-test/raw/2b578c7eb6c00aa6b2837f1cdca6e9ace6437d70/Settings/settings.lua</source>
+        <source platform="linux-aarch64" file="reaper_gutilitiesapi-aarch64.so">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-aarch64.so</source>
+        <source platform="linux-armv7l" file="reaper_gutilitiesapi-armv7l.so">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-armv7l.so</source>
+        <source platform="darwin-arm64" file="reaper_gutilitiesapi-arm64.dylib">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-arm64.dylib</source>
+        <source platform="darwin64" file="reaper_gutilitiesapi-x86_64.dylib">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-x86_64.dylib</source>
+        <source platform="linux64" file="reaper_gutilitiesapi-x86_64.so">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-x86_64.so</source>
+        <source platform="linux32" file="reaper_gutilitiesapi-i686.so">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-i686.so</source>
+        <source platform="win64" file="reaper_gutilitiesapi-x64.dll">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-x64.dll</source>
+        <source platform="win32" file="reaper_gutilitiesapi-x86.dll">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-x86.dll</source>
+        <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/2b578c7eb6c00aa6b2837f1cdca6e9ace6437d70/Include/lib.lua</source>
+        <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/2b578c7eb6c00aa6b2837f1cdca6e9ace6437d70/Include/lib2.lua</source>
       </version>
     </reapack>
   </category>
