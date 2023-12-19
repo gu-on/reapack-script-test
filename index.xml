@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaPack Script Test" commit="2b578c7eb6c00aa6b2837f1cdca6e9ace6437d70">
+<index version="1" name="ReaPack Script Test" commit="1113b9a25c5807a20b9b0d2cee85923698a83d11">
+  <category name="Extension">
+    <reapack name="extension.ext" type="extension" desc="Extension Test">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 GUtilities\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reaper tools for sample editing and game audio\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="guonaudio" time="2023-12-19T08:32:56Z">
+        <changelog><![CDATA[- Init]]></changelog>
+        <source platform="linux-aarch64" file="reaper_gutilitiesapi-aarch64.so">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-aarch64.so</source>
+        <source platform="linux-armv7l" file="reaper_gutilitiesapi-armv7l.so">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-armv7l.so</source>
+        <source platform="darwin-arm64" file="reaper_gutilitiesapi-arm64.dylib">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-arm64.dylib</source>
+        <source platform="darwin64" file="reaper_gutilitiesapi-x86_64.dylib">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-x86_64.dylib</source>
+        <source platform="linux64" file="reaper_gutilitiesapi-x86_64.so">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-x86_64.so</source>
+        <source platform="linux32" file="reaper_gutilitiesapi-i686.so">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-i686.so</source>
+        <source platform="win64" file="reaper_gutilitiesapi-x64.dll">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-x64.dll</source>
+        <source platform="win32" file="reaper_gutilitiesapi-x86.dll">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-x86.dll</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Scripts">
     <reapack name="test.lua" type="script" desc="Test1">
       <metadata>
@@ -80,6 +105,12 @@
         <source platform="win32" file="reaper_gutilitiesapi-x86.dll">https://github.com/gu-on/GUtilitiesAPI/releases/download/v0.1/reaper_gutilitiesapi-x86.dll</source>
         <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/2b578c7eb6c00aa6b2837f1cdca6e9ace6437d70/Include/lib.lua</source>
         <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/2b578c7eb6c00aa6b2837f1cdca6e9ace6437d70/Include/lib2.lua</source>
+      </version>
+      <version name="1.2" author="guonaudio" time="2023-12-19T08:32:56Z">
+        <changelog><![CDATA[Removed providing external plugins]]></changelog>
+        <source main="main">https://github.com/gu-on/reapack-script-test/raw/1113b9a25c5807a20b9b0d2cee85923698a83d11/Settings/settings.lua</source>
+        <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/1113b9a25c5807a20b9b0d2cee85923698a83d11/Include/lib.lua</source>
+        <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/1113b9a25c5807a20b9b0d2cee85923698a83d11/Include/lib2.lua</source>
       </version>
     </reapack>
   </category>
