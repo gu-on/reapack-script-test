@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="ReaPack Script Test" commit="a05d2dbf0117c6fdfbcd3a55e6fc8f3fe61b9f92">
+<index version="1" name="ReaPack Script Test" commit="342e268c900e0217fe77e9a5714277b7f5975f55">
   <category name="Extension">
     <reapack name="extension.ext" type="extension" desc="Extension Test">
       <metadata>
@@ -121,6 +121,12 @@
         <source main="main">https://github.com/gu-on/reapack-script-test/raw/a05d2dbf0117c6fdfbcd3a55e6fc8f3fe61b9f92/Settings/settings.lua</source>
         <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/a05d2dbf0117c6fdfbcd3a55e6fc8f3fe61b9f92/Include/lib.lua</source>
         <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/a05d2dbf0117c6fdfbcd3a55e6fc8f3fe61b9f92/Include/lib2.lua</source>
+      </version>
+      <version name="1.3.1" author="guonaudio" time="2023-12-28T20:45:14Z">
+        <changelog><![CDATA[Updated lib2]]></changelog>
+        <source main="main">https://github.com/gu-on/reapack-script-test/raw/342e268c900e0217fe77e9a5714277b7f5975f55/Settings/settings.lua</source>
+        <source file="../Include/lib.lua">https://github.com/gu-on/reapack-script-test/raw/342e268c900e0217fe77e9a5714277b7f5975f55/Include/lib.lua</source>
+        <source file="../Include/lib2.lua">https://github.com/gu-on/reapack-script-test/raw/342e268c900e0217fe77e9a5714277b7f5975f55/Include/lib2.lua</source>
       </version>
     </reapack>
   </category>
